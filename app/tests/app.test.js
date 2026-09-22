@@ -197,10 +197,4 @@ describe('FIAP Todo API', () => {
       expect(response.body.error).toBe('Route not found');
     });
   });
-
-  describe('Pipeline Error Test', () => {
-    it('should fail to demonstrate error handling', () => {
-      expect(1 + 1).toBe(3); // Vai falhar!
-    });
-  });
 });
